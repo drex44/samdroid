@@ -30,4 +30,7 @@ dependencies {
 
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
     compile 'com.google.android.gms:play-services-auth:11.8.0'
+
+    // glide is added to load the g+ profile image. Ignore if you want
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }
